@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>vodaiteplo</title>
+<style>
+ body, h1, a {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .full-screen-image {
+            position: relative;
+            height: 100vh;
+            background: url('1.png') no-repeat center center/cover;
+margin-bottom: 50px;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5); 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .overlay h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+text-align: center;
+
+        }
+        .overlay a {
+            background-color:  #0E1628;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+ .content {
+            display: flex;
+            margin: 20px;
+        }
+        .content p {
+            flex: 1;
+        }
+        .content img {
+            margin-left: 20px;
+            max-width: auto;
+            height: 50%;
+        }
+    .grid-container {
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     gap: 30px;
+     padding: 10px;
+    }
+    .item1 {
+     grid-column-start: 1;
+     grid-column-end: 7;
+    }
+    .item2 {
+     grid-column-start: 1;
+     grid-column-end: 7;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+    ul {
+     list-style-type:none;
+     margin: 0;
+     padding: 0;
+     overflow:hidden;
+     background-color: #0E1628;
+    }
+    li {
+        display:inline;
+     float:left;
+    }
+ .content-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -50px; 
+        }
+        .text-block {
+            flex: 1;
+            padding: 20px;
+            color: #333;
+        }
+        .image-block {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .image-block img {
+            border-radius: 15px;
+            max-width: 100%;
+            height: auto;
+        }
+   .basket {
+display:inline
+        float: right;
+}
+    li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+    }
+    li a:hover {
+     background-color:#0E1628;
+    }
+     .testimonials-section {
+            background-color: #f8f8f8; 
+            padding: 40px;
+            text-align: center;
+        }
+        .testimonial {
+            display: inline-block;
+            width: 45%; 
+            margin: 2.5%;
+            vertical-align: top;
+        }
+        .testimonial img {
+            width: 90px; 
+            height: 90px;
+            border-radius: 50%; 
+            margin-bottom: 20px;
+        }
+        .testimonial p {
+            font-size: 16px;
+            color: #333;
+        }
+        .testimonial h3 {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+.contact-us-section {
+        background-color: #fff; 
+        padding: 40px;
+        text-align: center;
+    }
+    .contact-us-section h2 {
+        margin-bottom: 20px;
+    }
+    .contact-us-section form {
+        max-width: 600px; 
+        margin: auto; 
+    }
+    .contact-us-section input,
+    .contact-us-section textarea {
+        width: 100%; 
+        padding: 10px;
+        margin-bottom: 10px; 
+        border: 1px solid #ddd; 
+        border-radius: 5px; 
+    }
+    .contact-us-section button {
+        background-color: #0E1628;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+ footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+</style>
+</head>
+<body>
+<main>
+    <div class="grid-container">
+        <div class="item1">
+            <header>
+                <img src="logo.png" alt="Logo" style="width:auto;height:50px;float:left;">
+                <ul>
+                      <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#catalog">Catalog</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#delivery">Delivery</a></li>
+                                                <img src="bascet.png" alt="Bascet" style="width: auto; height:50px; float: right;">
+
+
+                  </ul>
+
+</header>
+
+ <div class="full-screen-image">
+        <div class="overlay">
+            <h1>Enjoy exceptional comfort with the comfort of heating, affordable water supply and efficient sewerage</h1>
+            <a href="#catalog">Catalog</a>
+        </div>
+    </div>
+
+ <div class="content-section">
+        <div class="text-block">
+            <h2>High-quality equipment  <br>
+                                at fair prices</h2>
+
+            <p>The philosophy of our organization reflects the spirit of the words spoken by the founder of Bosch Corporation: "We simply cannot accept the idea of providing our customers with materials that do not meet the highest quality standards"</p>
+<p>For more than twenty years, Vodaiteplo has been supplying plumbing materials, receiving them directly from European factories</p>
+
+        </div>
+
+        <div class="image-block">
+
+            <img src="side-image.png" alt="">
+        </div>
+    </div>
+ <div class="testimonials-section">
+        <div class="testimonial">
+ <h2>Testimonial</h2>
+<p></p>
+<p></p>
+<p></p>
+            <img src="author.png" alt="">
+            <h3>Borisevich Artyom</h3>
+            <p>The specialists were real masters of their craft, providing me with detailed advice and helping me choose the optimal solution that would meet both my needs and budget. The technicians who came to do the work were polite, efficient and left the workspace perfectly clean after themselves</p>
+        </div>
+        <div class="testimonial">
+            <img src="author2.png" alt="">
+            <h3>Darya Sinkavets</h3>
+            <p>I want to express my gratitude to the company for their outstanding work in providing my house with a water supply system. From the moment of my first request to the completion of the installation, the team showed a high level of professionalism, patience and attention to detail</p>
+        </div>
+    </div>
+<div class="contact-us-section">
+    <h2>Email us</h2>
+    <form action="/send_message" method="post">
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</main>
+<footer>
+  <p>Minsk <br> Pobediteley Avenue, 125-271 <br>
+                                <a href="#">+375 17 234-44-60(61,62)</a> <br>
+                                <a href="#">vodaiteplo@gmail.com</a>
+                            </p>
+                            
+
+
+</footer>
+
+</body>
+</html>
